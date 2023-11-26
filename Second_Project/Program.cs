@@ -28,11 +28,10 @@ namespace Second_Project
 
             //задание 2
             decimal summ = 0;
-            int count = 3;
             summ += markInMathematics;
             summ += markInPhysics;
             summ += markInPhysics;
-            Console.WriteLine("\nArithmetic average :{0:0.0}",summ/count);
+            Console.WriteLine("\nArithmetic average :{0:0.0}",summ/3);
 
             Console.ReadKey();
 
